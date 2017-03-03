@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #dedede;
+	font-family: "微软雅黑";
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/* header头部样式制作 */
+.header{
+	position: relative;
+	background-color: #333;
+    height: 90px;
+}
+.header i{
+	width: 80px;
+	height: 80px;
+	background: url("../images/book4.jpg") no-repeat;
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+.header ul{
+	position: absolute;top: 0;right: 10px;
+}
+.header ul li{
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 30px 10px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.header ul li a:hover{
+	border-bottom: 1px solid red;
+	color: blue;
+	border-radius: 5px;
+}
+/* container主体样式制作 */
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.container{
+	display: block;
+	padding: 20px;
+	background-color: white;
+	margin: 30px;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+.container h2{
+	padding: 10px 0;
+}
+.container h3{
+	padding: 10px 0;
+	color: #808080;
+}
+.author{
+	line-height: 30px;
+	color: #808080;
+	font-size: 12px;
+}
+article p{
+	text-indent: 2em;
+	line-height: 25px;
+}
+article a{
+	color: blue;
+}
+.midul{
+	list-style: none;
+	margin-left: 10px;
+}
+.midimg{
+	width: 800px;
+	border: 1px solid grey;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.midimg span{
+	display: block;
+    text-align: center;
+}
+.midimg img{
+    margin: 10px 125px;
+}
+ol{
+	margin-left: 30px;
+}
+.tablespan{
+	line-height: 30px;
+}
+table{
+	border-collapse:collapse;
+	width: 1100px;
+}
+.theader{
+	background-color: #000;
+	color: white;
+}
+.tfooter{
+	background-color: grey;
+}
+.fp{
+	margin-left: 400px;
+	padding: 10px 0;
+	color: grey;
+	font-size: 12px;
+	text-indent: 0;
+}
+label{
+	text-align: right;
+	float: left;
+	padding-right: 15px;
+	width: 35%;
+}
+form div{
+	margin: 10px auto;
+}
+.submitbtn{
+	width: 100%;
+	height: 40px;
+	color: white;
+	background-color: blue;
+	border: none;
+	border-radius: 5px;
+}
+textarea{
+	width: 50%;
+	height: 90px;
+}
+/* footer脚部样式制作 */
+.footer{
+	height: 40px;
+	background-color: black;
+	margin: 0 auto;
+}
+.footer p{
+	line-height: 40px;
+	color: white;
+	text-align: center;
+}
